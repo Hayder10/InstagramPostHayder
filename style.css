@@ -1,0 +1,93 @@
+/*  DEBUG */
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+body{
+    background-color: black;
+    padding: 30px;
+}
+
+.instabackground{
+    background-color: white;
+    height: 800px;
+    width: 500px;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+}
+
+#icon {
+    height: auto;
+    width: 30px;
+    padding: 15px;
+}
+
+#icon i{
+    width: 30px;
+    height: 50px;
+}
+
+#usr{
+    height: auto;
+    width: 150px;
+    padding-top: 5px;
+}
+
+#dots{
+    height: auto;
+    width: 300px;
+}
+
+#dots i{
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.image{
+    height: 500px;
+    object-fit: contain;
+}
+
+img{
+    width: 100%;
+}
+
+.footer{
+    height: 220px;
+}
+
+.usricons{
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.usricons i{
+    margin: 5px;
+}
+
+.usricons i:last-child{
+    float: right;
+    padding-right: 10px;
+}
+
+.likedby{
+    height: 30px;
+    padding-left: 15px;
+}
+
+.lorem{
+    height: 140px;
+    padding-left: 15px;
+}
+
+.lorem p{
+    margin-top: 5px;
+}
